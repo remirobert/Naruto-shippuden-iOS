@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB6AD6061A2CBC5D0077AE1E /* DownloadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6AD6051A2CBC5D0077AE1E /* DownloadViewController.swift */; };
+		BB6AD6081A2CBD0C0077AE1E /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6AD6071A2CBD0C0077AE1E /* TabBarViewController.swift */; };
+		BB6AD6141A2CDB300077AE1E /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BB6AD6131A2CDB300077AE1E /* libsqlite3.0.dylib */; };
+		BB6AD6171A2CF2A50077AE1E /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB6AD6161A2CF2A50077AE1E /* Realm.framework */; };
+		BB6AD6191A2CF3060077AE1E /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BB6AD6181A2CF3060077AE1E /* libc++.dylib */; };
+		BB6AD61B1A2CF31F0077AE1E /* RLMSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6AD61A1A2CF31F0077AE1E /* RLMSupport.swift */; };
+		BB6AD61D1A2D092C0077AE1E /* DownloadTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6AD61C1A2D092C0077AE1E /* DownloadTableViewCell.swift */; };
+		BB6AD61F1A2DC98C0077AE1E /* RRProgressDownload.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6AD61E1A2DC98C0077AE1E /* RRProgressDownload.swift */; };
+		BB981D881A2CAF74007EE2F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB981D871A2CAF74007EE2F3 /* AppDelegate.swift */; };
+		BB981D8F1A2CAF74007EE2F3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB981D8E1A2CAF74007EE2F3 /* Images.xcassets */; };
+		BB981D921A2CAF74007EE2F3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB981D901A2CAF74007EE2F3 /* LaunchScreen.xib */; };
+		BB981D9E1A2CAF74007EE2F3 /* naruto_downloadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB981D9D1A2CAF74007EE2F3 /* naruto_downloadTests.swift */; };
+		BB981DA81A2CAFFA007EE2F3 /* EpisodeControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB981DA71A2CAFFA007EE2F3 /* EpisodeControllerViewController.swift */; };
+		BB981DAA1A2CB5E9007EE2F3 /* RRDownloadFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB981DA91A2CB5E8007EE2F3 /* RRDownloadFile.swift */; };
+		BB981DAC1A2CB5F2007EE2F3 /* Crackers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB981DAB1A2CB5F2007EE2F3 /* Crackers.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB981D981A2CAF74007EE2F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB981D7A1A2CAF74007EE2F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB981D811A2CAF74007EE2F3;
+			remoteInfo = "naruto-download";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB6AD6051A2CBC5D0077AE1E /* DownloadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadViewController.swift; sourceTree = "<group>"; };
+		BB6AD6071A2CBD0C0077AE1E /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		BB6AD6091A2CDAC70077AE1E /* naruto-download-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "naruto-download-Bridging-Header.h"; sourceTree = "<group>"; };
+		BB6AD6131A2CDB300077AE1E /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		BB6AD6161A2CF2A50077AE1E /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		BB6AD6181A2CF3060077AE1E /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		BB6AD61A1A2CF31F0077AE1E /* RLMSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RLMSupport.swift; sourceTree = "<group>"; };
+		BB6AD61C1A2D092C0077AE1E /* DownloadTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadTableViewCell.swift; sourceTree = "<group>"; };
+		BB6AD61E1A2DC98C0077AE1E /* RRProgressDownload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RRProgressDownload.swift; sourceTree = "<group>"; };
+		BB981D821A2CAF74007EE2F3 /* naruto-download.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "naruto-download.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB981D861A2CAF74007EE2F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB981D871A2CAF74007EE2F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BB981D8E1A2CAF74007EE2F3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BB981D911A2CAF74007EE2F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BB981D971A2CAF74007EE2F3 /* naruto-downloadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "naruto-downloadTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB981D9C1A2CAF74007EE2F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB981D9D1A2CAF74007EE2F3 /* naruto_downloadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = naruto_downloadTests.swift; sourceTree = "<group>"; };
+		BB981DA71A2CAFFA007EE2F3 /* EpisodeControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EpisodeControllerViewController.swift; sourceTree = "<group>"; };
+		BB981DA91A2CB5E8007EE2F3 /* RRDownloadFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RRDownloadFile.swift; sourceTree = "<group>"; };
+		BB981DAB1A2CB5F2007EE2F3 /* Crackers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Crackers.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB981D7F1A2CAF74007EE2F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB6AD6191A2CF3060077AE1E /* libc++.dylib in Frameworks */,
+				BB6AD6171A2CF2A50077AE1E /* Realm.framework in Frameworks */,
+				BB6AD6141A2CDB300077AE1E /* libsqlite3.0.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB981D941A2CAF74007EE2F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB6AD6151A2CDE9C0077AE1E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				BB981DAB1A2CB5F2007EE2F3 /* Crackers.swift */,
+				BB981DA91A2CB5E8007EE2F3 /* RRDownloadFile.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		BB981D791A2CAF74007EE2F3 = {
+			isa = PBXGroup;
+			children = (
+				BB6AD6181A2CF3060077AE1E /* libc++.dylib */,
+				BB6AD6131A2CDB300077AE1E /* libsqlite3.0.dylib */,
+				BB6AD6161A2CF2A50077AE1E /* Realm.framework */,
+				BB981D841A2CAF74007EE2F3 /* naruto-download */,
+				BB981D9A1A2CAF74007EE2F3 /* naruto-downloadTests */,
+				BB981D831A2CAF74007EE2F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB981D831A2CAF74007EE2F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB981D821A2CAF74007EE2F3 /* naruto-download.app */,
+				BB981D971A2CAF74007EE2F3 /* naruto-downloadTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB981D841A2CAF74007EE2F3 /* naruto-download */ = {
+			isa = PBXGroup;
+			children = (
+				BB6AD61A1A2CF31F0077AE1E /* RLMSupport.swift */,
+				BB6AD6151A2CDE9C0077AE1E /* Helpers */,
+				BB981D871A2CAF74007EE2F3 /* AppDelegate.swift */,
+				BB6AD61E1A2DC98C0077AE1E /* RRProgressDownload.swift */,
+				BB6AD6071A2CBD0C0077AE1E /* TabBarViewController.swift */,
+				BB981DA71A2CAFFA007EE2F3 /* EpisodeControllerViewController.swift */,
+				BB6AD6051A2CBC5D0077AE1E /* DownloadViewController.swift */,
+				BB6AD61C1A2D092C0077AE1E /* DownloadTableViewCell.swift */,
+				BB981D8E1A2CAF74007EE2F3 /* Images.xcassets */,
+				BB981D901A2CAF74007EE2F3 /* LaunchScreen.xib */,
+				BB981D851A2CAF74007EE2F3 /* Supporting Files */,
+				BB6AD6091A2CDAC70077AE1E /* naruto-download-Bridging-Header.h */,
+			);
+			path = "naruto-download";
+			sourceTree = "<group>";
+		};
+		BB981D851A2CAF74007EE2F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB981D861A2CAF74007EE2F3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BB981D9A1A2CAF74007EE2F3 /* naruto-downloadTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB981D9D1A2CAF74007EE2F3 /* naruto_downloadTests.swift */,
+				BB981D9B1A2CAF74007EE2F3 /* Supporting Files */,
+			);
+			path = "naruto-downloadTests";
+			sourceTree = "<group>";
+		};
+		BB981D9B1A2CAF74007EE2F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB981D9C1A2CAF74007EE2F3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB981D811A2CAF74007EE2F3 /* naruto-download */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB981DA11A2CAF74007EE2F3 /* Build configuration list for PBXNativeTarget "naruto-download" */;
+			buildPhases = (
+				BB981D7E1A2CAF74007EE2F3 /* Sources */,
+				BB981D7F1A2CAF74007EE2F3 /* Frameworks */,
+				BB981D801A2CAF74007EE2F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "naruto-download";
+			productName = "naruto-download";
+			productReference = BB981D821A2CAF74007EE2F3 /* naruto-download.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB981D961A2CAF74007EE2F3 /* naruto-downloadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB981DA41A2CAF74007EE2F3 /* Build configuration list for PBXNativeTarget "naruto-downloadTests" */;
+			buildPhases = (
+				BB981D931A2CAF74007EE2F3 /* Sources */,
+				BB981D941A2CAF74007EE2F3 /* Frameworks */,
+				BB981D951A2CAF74007EE2F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB981D991A2CAF74007EE2F3 /* PBXTargetDependency */,
+			);
+			name = "naruto-downloadTests";
+			productName = "naruto-downloadTests";
+			productReference = BB981D971A2CAF74007EE2F3 /* naruto-downloadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB981D7A1A2CAF74007EE2F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = remirobert;
+				TargetAttributes = {
+					BB981D811A2CAF74007EE2F3 = {
+						CreatedOnToolsVersion = 6.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					BB981D961A2CAF74007EE2F3 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = BB981D811A2CAF74007EE2F3;
+					};
+				};
+			};
+			buildConfigurationList = BB981D7D1A2CAF74007EE2F3 /* Build configuration list for PBXProject "naruto-download" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB981D791A2CAF74007EE2F3;
+			productRefGroup = BB981D831A2CAF74007EE2F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB981D811A2CAF74007EE2F3 /* naruto-download */,
+				BB981D961A2CAF74007EE2F3 /* naruto-downloadTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB981D801A2CAF74007EE2F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB981D921A2CAF74007EE2F3 /* LaunchScreen.xib in Resources */,
+				BB981D8F1A2CAF74007EE2F3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB981D951A2CAF74007EE2F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB981D7E1A2CAF74007EE2F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB981DA81A2CAFFA007EE2F3 /* EpisodeControllerViewController.swift in Sources */,
+				BB6AD61D1A2D092C0077AE1E /* DownloadTableViewCell.swift in Sources */,
+				BB981D881A2CAF74007EE2F3 /* AppDelegate.swift in Sources */,
+				BB981DAA1A2CB5E9007EE2F3 /* RRDownloadFile.swift in Sources */,
+				BB6AD6061A2CBC5D0077AE1E /* DownloadViewController.swift in Sources */,
+				BB6AD6081A2CBD0C0077AE1E /* TabBarViewController.swift in Sources */,
+				BB6AD61B1A2CF31F0077AE1E /* RLMSupport.swift in Sources */,
+				BB981DAC1A2CB5F2007EE2F3 /* Crackers.swift in Sources */,
+				BB6AD61F1A2DC98C0077AE1E /* RRProgressDownload.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB981D931A2CAF74007EE2F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB981D9E1A2CAF74007EE2F3 /* naruto_downloadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB981D991A2CAF74007EE2F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB981D811A2CAF74007EE2F3 /* naruto-download */;
+			targetProxy = BB981D981A2CAF74007EE2F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BB981D901A2CAF74007EE2F3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB981D911A2CAF74007EE2F3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB981D9F1A2CAF74007EE2F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB981DA01A2CAF74007EE2F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB981DA21A2CAF74007EE2F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "naruto-download/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "naruto-download/naruto-download-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB981DA31A2CAF74007EE2F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "naruto-download/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "naruto-download/naruto-download-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		BB981DA51A2CAF74007EE2F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "naruto-downloadTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/naruto-download.app/naruto-download";
+			};
+			name = Debug;
+		};
+		BB981DA61A2CAF74007EE2F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "naruto-downloadTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/naruto-download.app/naruto-download";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB981D7D1A2CAF74007EE2F3 /* Build configuration list for PBXProject "naruto-download" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB981D9F1A2CAF74007EE2F3 /* Debug */,
+				BB981DA01A2CAF74007EE2F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB981DA11A2CAF74007EE2F3 /* Build configuration list for PBXNativeTarget "naruto-download" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB981DA21A2CAF74007EE2F3 /* Debug */,
+				BB981DA31A2CAF74007EE2F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB981DA41A2CAF74007EE2F3 /* Build configuration list for PBXNativeTarget "naruto-downloadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB981DA51A2CAF74007EE2F3 /* Debug */,
+				BB981DA61A2CAF74007EE2F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB981D7A1A2CAF74007EE2F3 /* Project object */;
+}
